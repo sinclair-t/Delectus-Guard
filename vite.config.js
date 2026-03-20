@@ -11,13 +11,16 @@ export default defineConfig({
         main: './index.html',
         about: './about.html',
         contact: './contact.html',
-        keyholding: './keyholding.html',
-        leisure: './leisure.html',
-        'matchday-security': './matchday-security .html',
-        'nhs-healthcare': './NHS-healthcare.html',
-        'close-protect': './close-protecr.html',
-        'project-single': './project-single.html',
-        'surveillance-security': './surveillance-security.html'
+        'manned-guarding': './manned-guarding.html',
+        'corporate-security': './corporate-security.html',
+        'residential-security': './residential-security.html',
+        'event-security': './event-security.html',
+        'construction-security': './construction-security.html',
+        'vip-protection': './vip-protection.html',
+        'mobile-patrol': './mobile-patrol.html',
+        'risk-assessment': './risk-assessment.html',
+        'access-control': './access-control.html',
+        'industrial-security': './industrial-security.html'
       },
       output: {
         assetFileNames: (assetInfo) => {
